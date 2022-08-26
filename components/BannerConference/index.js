@@ -1,14 +1,16 @@
 import Image from 'next/image';
 import React from "react"
+import Timer from './Timer';
 
-function index(){
+function BannerConference(){
   return(
     <div>
-      <div className='flex h-full w-full'>
-        <Image width='1920' height='780' alt='backgroundimg' src='/bg.png'/>
+      <div className='flex flex-col h-full w-full'>
+        <div className="w-full h-[620px] bg-cover bg-center" style={{backgroundImage: "url('/speaker-conference.jpg')"}}></div>
+        <Timer />
       </div>
     </div>
     )
 }
 
-export default index
+export default BannerConference

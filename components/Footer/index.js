@@ -1,13 +1,13 @@
 import React from "react"
 
-function Schedule(){
+function Footer(){
   return(
     <div>
       <div className='flex h-full w-full'>
-        Schedule
+        Footer
       </div>
     </div>
     )
 }
 
-export default Schedule
+export default Footer

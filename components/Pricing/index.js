@@ -1,13 +1,13 @@
 import React from "react"
 
-function Schedule(){
+function Pricing(){
   return(
     <div>
       <div className='flex h-full w-full'>
-        Schedule
+        Pricing
       </div>
     </div>
     )
 }
 
-export default Schedule
+export default Pricing

@@ -4,9 +4,8 @@ import NavbarItem from './NavbarItem';
 
 const itens = [
  'Home',
- 'Palestrantes',
- 'Agenda',
  'Ingresso',
+ 'Call For Papers',
  'Increver-se',
 ]
 
