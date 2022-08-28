@@ -12,7 +12,7 @@ const itens = [
 function Navbar() {
   return (
     <div className='sticky shadow-md w-full h-16 flex-row'>
-      <div className='flex items-center justify-between'>
+      <div className='flex items-center justify-between px-4'>
         <div className='flex items-center h-16 pl-2'>
           <Image width='158' height='50' src='/join-logo.png' />
         </div>

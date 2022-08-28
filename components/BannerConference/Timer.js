@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import useCountdown from './useCountdown';
 
 function Timer({  }) {
-  const [day, hour, minute, second] = useCountdown('Aug 28, 2022, 14:00:00')
+  let [day, hour, minute, second] = useCountdown('Aug 28, 2022, 14:00:00')
+
   return (
-    <div className='flex w-full h-24 bg-gradient-to-r from-[#1339c8] to-[#ef6f94]'>
-      <div className='flex w-full justify-between mx-24'>
+    <div className='flex w-full h-36 bg-gradient-to-r from-[#1339c8] to-[#ef6f94]'>
+      <div className='flex w-full justify-between mx-36'>
         <div className='flex flex-col justify-center'>
           <span className='text-center text-xl text-white'>{day}</span>
           <span className='text-white'>Dias</span>
