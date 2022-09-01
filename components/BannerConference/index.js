@@ -23,7 +23,7 @@ function BannerConference(){
             </div>
             <div className='flex items-center justify-center text-white mb-10 text-1xl font-bold'>
               <FontAwesomeIcon icon={faLocationDot} />
-              <span className='ml-2'>Sebrae - Av. T-3 n.1000 Setor Bueno - </span>
+              <span className='ml-2'>Sebrae - Av. T-3 n.1000 Setor Bueno - Goiânia - GO </span>
             </div>
             <Button href="https://bit.ly/joiningresso22">
               Garanta seu ingressso!
