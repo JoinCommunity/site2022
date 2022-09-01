@@ -1,6 +1,8 @@
 import dynamic from 'next/dynamic';
 import React from "react"
 import { Button } from '@components/Base';
+import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome'
+import { faLocationDot  } from '@fortawesome/free-solid-svg-icons'
 
 const Timer = dynamic(
   () => import('./Timer'),
@@ -16,10 +18,14 @@ function BannerConference(){
             <div className='flex justify-center text-white text-xl font-semibold'>
               30 de Outubro, 2022
             </div>
-            <div className='flex justify-center text-white mb-10 text-6xl font-bold'>
+            <div className='flex justify-center text-white mb-2 text-6xl font-bold'>
               JoinCommunity 2022
             </div>
-            <Button>
+            <div className='flex items-center justify-center text-white mb-10 text-1xl font-bold'>
+              <FontAwesomeIcon icon={faLocationDot} />
+              <span className='ml-2'>Sebrae - Av. T-3 n.1000 Setor Bueno - </span>
+            </div>
+            <Button href="https://bit.ly/joiningresso22">
               Garanta seu ingressso!
             </Button>
           </div>

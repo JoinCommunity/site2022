@@ -1,8 +1,7 @@
 import Navbar from '@components/Navbar';
 import BannerConference from '@components/BannerConference';
-import Footer from '@components/Footer';
-import Pricing from '@components/Pricing';
 import AboutUs from '@components/AboutUs';
+import Partners from '@components/Partners';
 
 export default function Home() {
   return (
@@ -11,8 +10,7 @@ export default function Home() {
       <div>
         <BannerConference />
         <AboutUs />
-        <Pricing />
-        <Footer />
+        <Partners />
       </div>
     </div>
   )

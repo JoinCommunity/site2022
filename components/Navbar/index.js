@@ -3,8 +3,6 @@ import Image from 'next/image'
 import NavbarItem from './NavbarItem';
 
 const itens = [
- 'Home',
- 'Ingresso',
  'Call For Papers',
  'Increver-se',
 ]
@@ -18,7 +16,8 @@ function Navbar() {
         </div>
         <div>
           <ul className='flex justify-between'>
-            {itens.map((item) => <NavbarItem key={item} label={item} />)}
+            <NavbarItem href='https://bit.ly/joinc4p22'>Call For Papers</NavbarItem>
+            <NavbarItem href='https://bit.ly/joiningresso22'>Inscrever-se</NavbarItem>
           </ul>
         </div>
       </div>

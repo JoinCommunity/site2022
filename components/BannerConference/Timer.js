@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import useCountdown from './useCountdown';
 
 function Timer({  }) {
-  let [day, hour, minute, second] = useCountdown('Aug 28, 2022, 14:00:00')
+  let [day, hour, minute, second] = useCountdown('Oct 07, 2022, 19:00:00')
 
   return (
     <div className='flex w-full h-36 bg-gradient-to-r from-[#1339c8] to-[#ef6f94]'>
