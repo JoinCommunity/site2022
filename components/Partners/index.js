@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 function Partners(){
   return(
-    <div className='bg-background h-96 py-16'>
-      <div className='flex flex-col mx-20 py-2'>
+    <div className='py-16 bg-background'>
+      <div className='flex flex-col py-2 mx-20'>
         <div>
-          <p className='text-white text-3xl font-semibold'>Parceiros</p>
+          <p className='text-xl font-semibold text-white md:text-3xl'>Parceiros</p>
         </div>
-        <div className='w-full flex justify-center '>
+        <div className='flex justify-center w-full'>
           <Image width="370" height='190' src='/sebrae.png'></Image>
         </div>
       </div>
