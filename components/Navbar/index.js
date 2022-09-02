@@ -23,7 +23,7 @@ function Navbar() {
           <Menu open={open} setOpen={setOpen} />
         </div>
       </div>
-      <Drawer open={open} />
+      <Drawer open={open} setOpen={setOpen} />
     </>
   )
 }
