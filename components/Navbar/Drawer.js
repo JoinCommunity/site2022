@@ -10,7 +10,7 @@ function Drawer({ open }){
       <div className='flex flex-col items-center justify-center'>
         <div className='flex flex-col items-center justify-center w-64 p-5 m-5 border border-white'>
           <span className='mb-5 text-white'>
-            Aproveite nosso primeiro lote promocional, e garanta sua presenca no evento!
+            Aproveite nosso primeiro lote promocional, e garanta sua presença no evento!
           </span>
           <div className='w-full p-1 font-semibold text-center text-white cursor-pointer bg-primary-900'>
             <a target='_BLANK' rel='noreferrer' href='https://bit.ly/joiningresso22'>
