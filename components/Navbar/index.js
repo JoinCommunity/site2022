@@ -7,6 +7,12 @@ import Drawer from './Drawer';
 function Navbar() {
   const [open, setOpen] = useState(false)
 
+  if (open) {
+    document.body.style.overflow = "hidden"
+  } else {
+    document.body.style.overflow = "scroll"
+  }
+
   return (
     <>
       <div className='sticky flex-row w-full h-16 shadow-md'>

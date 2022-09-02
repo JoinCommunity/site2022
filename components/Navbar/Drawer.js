@@ -1,7 +1,4 @@
 import React, { useCallback, useState } from 'react'
-import Image from 'next/image'
-import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome'
-import { faX } from '@fortawesome/free-solid-svg-icons'
 
 function Drawer({ open }){
   return(
