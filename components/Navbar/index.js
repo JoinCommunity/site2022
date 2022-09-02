@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import NavbarItem from './NavbarItem';
 import Menu from './Menu';
@@ -7,11 +7,13 @@ import Drawer from './Drawer';
 function Navbar() {
   const [open, setOpen] = useState(false)
 
-  if (open) {
-    document.body.style.overflow = "hidden"
-  } else {
-    document.body.style.overflow = "scroll"
-  }
+  useEffect(function disableScroll(){
+    if (open) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = "scroll"
+    }
+  }, [open])
 
   return (
     <>
